@@ -74,15 +74,18 @@ p {
 }
 
 .project-button {
-  background: rgb(58, 153, 150);
+  background: rgb(55, 174, 170);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   color: white;
-  font-weight: bold;
+  font-weight: 500;
+  padding: 10px 15px;
   transition: 200ms all ease-in-out;
 }
 
 .project-button:hover {
-  background: rgb(50, 118, 116);
-  color: white;
+  background: rgb(61, 151, 148);
+  color: black;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 576px) {
