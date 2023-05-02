@@ -88,6 +88,12 @@ p {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
+.contact-box {
+  padding: 30px;
+  margin: 30px;
+  background-color: var(--secondary-color);
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 50px;
