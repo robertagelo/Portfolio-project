@@ -1,6 +1,7 @@
 :root {
-  --primary-color: rgb(179, 87, 159);
-  --secondary-color: #79c2f3;
+  --primary-color: rgb(250, 178, 172);
+  --secondary-color: rgb(215, 248, 247);
+  --ter-color: rgb(190, 228, 210);
 }
 
 h1,
@@ -21,9 +22,6 @@ p {
   font-family: "Jost", sans-serif;
   margin: 0;
   font-size: 20px;
-}
-
-.hero {
 }
 
 .row-hero {
@@ -63,7 +61,7 @@ p {
 }
 
 .hp-second-block {
-  background-color: #c7e9ff;
+  background-color: var(--secondary-color);
 }
 
 .code-image {
@@ -73,6 +71,18 @@ p {
 
 .skills {
   padding: 20px 100px;
+}
+
+.project-button {
+  background: rgb(58, 153, 150);
+  color: white;
+  font-weight: bold;
+  transition: 200ms all ease-in-out;
+}
+
+.project-button:hover {
+  background: rgb(50, 118, 116);
+  color: white;
 }
 
 @media (max-width: 576px) {
