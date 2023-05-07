@@ -97,6 +97,12 @@ p {
   text-align: center;
 }
 
+.work-experience {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 50px;
