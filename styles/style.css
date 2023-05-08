@@ -281,6 +281,52 @@ p,
   border: 3px solid rgb(55, 174, 170);
 }
 
+.projects {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.image-container {
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+  transition: all 400ms ease-in-out;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 400ms ease-in-out;
+}
+
+.projects-wrapper:hover img {
+  transform: rotate(-5deg) scale(1.2);
+  opacity: 0.3;
+}
+
+.project-text {
+  visibility: hidden;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  left: 0;
+  opacity: 0;
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  transition: all 0.3s ease 0s;
+  z-index: 2;
+  top: 50%;
+  right: 0;
+  text-align: center;
+}
+
+.projects-wrapper:hover .project-text {
+  opacity: 1;
+  visibility: visible;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 50px;
