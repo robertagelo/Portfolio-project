@@ -13,33 +13,43 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Itim&family=Jost&family=Patrick+Hand+SC&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Itim&family=Jost&family=Patrick+Hand+SC&family=Reenie+Beanie&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/style.css" />
     <title>My Projects | Roberta Gelo's</title>
   </head>
   <body>
-    <div class="container-fluid sticky-top">
-      <nav class="main-menu">
-        <img
-          class="logo-mobile"
-          src="/media/logos/logo-mobile.png"
-          alt="Main logo"
-        />
+    <!--Menu visible only on desktop-->
+
+    <nav class="container-fluid sticky-top main-menu-desktop">
+      <a href="/">
         <img
           class="logo-desktop"
           src="/media/logos/logo-desktop.png"
           alt="Main logo"
-        />
-        <ul class="d-flex">
-          <li><a href="/"> Home</a></li>
-          <li><a href="/work-experience.html">Work experience</a></li>
-          <li class="active">My projects</li>
-          <li><a href="/about.html">About me</a></li>
-        </ul>
-      </nav>
-    </div>
+      /></a>
+      <ul class="d-flex m-0 p-0 align-items-center text-center">
+        <li><a href="/">Home</a></li>
+        <li><a href="/work-experience.html">Work experience</a></li>
+        <li class="active">My projects</li>
+        <li><a href="/about.html">About me</a></li>
+      </ul>
+    </nav>
+
+    <!--Menu visible only on mobile-->
+    <nav class="main-menu-mobile container-fluid sticky-top">
+      <img
+        class="logo-mobile pt-3 pb-3"
+        src="/media/logos/logo-mobile.png"
+        alt="Main logo"
+      />
+      <ul class="d-flex align-items-center m-0 p-0 text-center">
+        <li><a href="/work-experience.html">Experience</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/about.html">About</a></li>
+      </ul>
+    </nav>
     <h1 class="text-center">My projects</h1>
     <h3 class="text-center">
       Find out what I've been done during last months nights 😂🥱😴

@@ -2,14 +2,22 @@
   --primary-color: #fab2ac;
   --secondary-color: #d7f8f7;
   --ter-color: #bee4d2;
-  --title-font: "Itim", cursive;
+  --title-font: "Reenie Beanie", cursive;
   --content-font: "Jost", sans-serif;
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: var(--title-font);
+}
+
+h3 {
+  font-family: var(--content-font);
+  font-weight: 700;
+}
+
+.row-hero h3 {
+  font-size: 40px;
 }
 
 h1 {
@@ -17,34 +25,39 @@ h1 {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 70px;
 }
 
-.main-menu {
-  align-items: center;
+.main-menu-desktop {
   display: flex;
   backdrop-filter: blur(6px);
   justify-content: space-between;
   padding: 0;
-  margin: 0;
+  margin: 10px 0;
   font-family: var(--content-font);
   font-size: 18px;
 }
-.main-menu ul {
+.main-menu-desktop ul,
+.main-menu-mobile ul {
   list-style-type: none;
 }
 
-.main-menu li {
-  font-family: var(--content-font);
+.main-menu-desktop li {
   padding: 10px 30px;
 }
 
-.main-menu li a {
+.main-menu-mobile li {
+  padding: 10px 20px;
+}
+
+.main-menu-desktop li a,
+.main-menu-mobile li a {
   text-decoration: none;
   color: black;
 }
 
-.main-menu .active {
+.main-menu-desktop .active,
+.main-menu-mobile .active {
   color: var(--primary-color);
   font-weight: 800;
   background: linear-gradient(to right, #d06f8c, #c8a499, #84c0c0);
@@ -54,17 +67,28 @@ h2 {
   background-clip: text;
 }
 
-.main-menu li a:hover {
+.main-menu-desktop li a:hover {
   color: #84c0c0;
 }
 
 .logo-desktop {
   width: 230px;
+  margin: 10px 0;
 }
 
 .logo-mobile {
-  display: none;
-  margin: 0 10px;
+  width: 65px;
+}
+
+.main-menu-mobile {
+  display: flex;
+  backdrop-filter: blur(6px);
+  justify-content: space-between;
+  padding: 0;
+  margin: 10px 0;
+  font-family: var(--content-font);
+  font-size: 15px;
+  visibility: hidden;
 }
 
 p,
@@ -387,6 +411,10 @@ p,
     font-size: 40px;
   }
 
+  .navbar {
+    display: block;
+  }
+
   .code-image {
     margin: 0 auto;
     padding: 30px 30px 0 30px;
@@ -400,5 +428,13 @@ p,
   .skills {
     padding: 40px;
     text-align: center;
+  }
+
+  .main-menu-desktop {
+    display: none;
+  }
+
+  .main-menu-mobile {
+    visibility: visible;
   }
 }
