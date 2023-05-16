@@ -32,8 +32,8 @@ h2 {
   display: flex;
   backdrop-filter: blur(6px);
   justify-content: space-between;
-  padding: 0;
-  margin: 10px 0;
+  padding: 10px 0;
+  margin-bottom: 10px;
   font-family: var(--content-font);
   font-size: 18px;
 }
@@ -73,7 +73,7 @@ h2 {
 
 .logo-desktop {
   width: 230px;
-  margin: 10px 0;
+  margin: 0 10px;
 }
 
 .logo-mobile {
@@ -88,7 +88,43 @@ h2 {
   margin: 10px 0;
   font-family: var(--content-font);
   font-size: 15px;
-  visibility: hidden;
+}
+
+footer {
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+footer .footer-text {
+  color: white;
+  font-size: 18px;
+  padding: 15px;
+}
+
+footer .footer-text img {
+  width: 18px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .social-icon img {
+  width: 30px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+  margin: 20px 40px;
 }
 
 p,
@@ -432,9 +468,5 @@ p,
 
   .main-menu-desktop {
     display: none;
-  }
-
-  .main-menu-mobile {
-    visibility: visible;
   }
 }
