@@ -114,12 +114,6 @@ footer .footer-text img {
   width: 18px;
 }
 
-footer ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
 footer .social-icon img {
   width: 30px;
   -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
