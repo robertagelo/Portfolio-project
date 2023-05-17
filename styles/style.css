@@ -463,4 +463,19 @@ p,
   .main-menu-desktop {
     display: none;
   }
+
+  footer .follow-text {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  footer .footer-text {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  footer .social-icon img {
+    width: 45px;
+  }
 }
