@@ -30,17 +30,17 @@
         />
       </a>
       <ul class="d-flex m-0 p-0 align-items-center text-center">
-        <li class="active">Home</li>
+        <li><a href="/"> Home</a></li>
         <li><a href="/work-experience.html">Work experience</a></li>
         <li><a href="/projects.html">My projects</a></li>
-        <li><a href="/about.html">About me</a></li>
+        <li class="active">About me</li>
       </ul>
     </nav>
     <!--Menu visible only on mobile-->
-    <nav class="main-menu-mobile d-md-none container-fluid sticky-top">
+    <nav class="main-menu-mobile d-sm-none container-fluid sticky-top">
       <a href="/">
         <img
-          class="logo-mobile m-3"
+          class="logo-mobile m-2"
           src="/media/logos/logo-mobile.png"
           alt="Main logo"
         />
@@ -48,14 +48,14 @@
       <ul class="d-flex align-items-center m-0 p-0 text-center">
         <li><a href="/work-experience.html">Experience</a></li>
         <li><a href="/projects.html">Projects</a></li>
-        <li><a href="/about.html">About</a></li>
+        <li clas="active">About</li>
       </ul>
     </nav>
     <h1 class="text-center">About me</h1>
     <h3 class="text-center">
       Product owner | E-Commerce Lover | Coding student
     </h3>
-    <p class="mt-4 text-center">
+    <p class="m-3 text-center">
       I currently work in ecommerce management for a multinational company with
       more than 30K products and an advanced architecture. <br />
       Passionate about the IT industry, I have been studying coding from a
@@ -64,9 +64,9 @@
       more exciting challenges in this field! <br /><br />
       Let's stay in contact!
     </p>
-    <div class="container hp-third-block">
-      <div class="row">
-        <div class="col-md contact-box">
+    <div class="container hp-third-block" id="contact-options">
+      <div class="row justify-content-center mb-4">
+        <div class="col-lg contact-box">
           <img
             src="/media/icons/email.png"
             alt="Email icon"
@@ -74,12 +74,16 @@
             class="contact-icon m-3"
           />
           <p>
-            You can write me an e-mail at <br /><br /><br /><span class="fs-4"
-              >roberta@roberta.it</span
+            You can send memes by writing me an email<br />
+            <a
+              href="mailto:roberta.outlook.it"
+              target="_blank"
+              class="btn mt-5 d-block project-button"
+              >Don't be shy!</a
             >
           </p>
         </div>
-        <div class="col-md contact-box">
+        <div class="col-lg contact-box">
           <img
             src="/media/icons/telegram.png"
             alt="Telegram icon"
@@ -91,7 +95,7 @@
             <span class="fs-4"> @robertagelo</span>
           </p>
         </div>
-        <div class="col-md contact-box">
+        <div class="col-lg contact-box">
           <img
             src="/media/icons/linkedin.png"
             alt="Linkedin icon"
@@ -99,11 +103,11 @@
             class="contact-icon m-3"
           />
           <p>
-            You can send a message to my Linkedin inbox<br /><br />
-            <span class="fs-4"
-              ><a href="https://www.linkedin.com/in/robertasignorinogelo"
-                >/robertasignorinogelo</a
-              ></span
+            You can send a message to my Linkedin inbox<br />
+            <a
+              href="https://www.linkedin.com/in/robertasignorinogelo/"
+              class="btn mt-5 d-block project-button"
+              >Go to Linkedin</a
             >
           </p>
         </div>
@@ -139,7 +143,10 @@
                   </a>
                 </div>
                 <div class="col col-sm-6 col-md-3 text-center social-icon">
-                  <a href="" target="_blank">
+                  <a
+                    href="https://www.instagram.com/robertagelo/"
+                    target="_blank"
+                  >
                     <img
                       src="/media/icons/instagram.png"
                       alt="Instagram icon"
@@ -147,7 +154,10 @@
                   </a>
                 </div>
                 <div class="col col-sm-6 col-md-3 text-center social-icon">
-                  <a href="" target="_blank">
+                  <a
+                    href="https://www.facebook.com/Roberta.SignorinoGelo/"
+                    target="_blank"
+                  >
                     <img src="/media/icons/facebook.png" alt="Facebook icon" />
                   </a>
                 </div>

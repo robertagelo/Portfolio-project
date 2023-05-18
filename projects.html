@@ -30,14 +30,14 @@
         />
       </a>
       <ul class="d-flex m-0 p-0 align-items-center text-center">
-        <li class="active">Home</li>
+        <li><a href="/"> Home</a></li>
         <li><a href="/work-experience.html">Work experience</a></li>
-        <li><a href="/projects.html">My projects</a></li>
+        <li class="active">My projects</li>
         <li><a href="/about.html">About me</a></li>
       </ul>
     </nav>
     <!--Menu visible only on mobile-->
-    <nav class="main-menu-mobile d-md-none container-fluid sticky-top">
+    <nav class="main-menu-mobile d-sm-none container-fluid sticky-top">
       <a href="/">
         <img
           class="logo-mobile m-3"
@@ -47,7 +47,7 @@
       </a>
       <ul class="d-flex align-items-center m-0 p-0 text-center">
         <li><a href="/work-experience.html">Experience</a></li>
-        <li><a href="/projects.html">Projects</a></li>
+        <li class="active">Projects</li>
         <li><a href="/about.html">About</a></li>
       </ul>
     </nav>
@@ -56,51 +56,69 @@
       Find out what I've been done during last months nights 😂🥱😴
     </h3>
     <p class="text-center mb-5">
-      In the last period I focused on deepening my knowledge of mark up
-      languages and javascript, doing some projects. This website is part of it!
+      In the last period I focused on deepening my knowledge of coding, making
+      some projects using html, css and javascript. This website is one of it!
     </p>
     <div class="container-fluid">
-      <div class="projects row">
+      <div class="row mb-5 projects">
         <div class="col-md-2 p-2">
           <div class="project-wrapper rounded">
-            <img
-              class="img-fluid rounded shadow"
-              src="/media/landing.png"
-              alt="Project 1"
-            />
-            <p class="project-text">Space weather app</p>
+            <a
+              href="https://www.shecodes.io/workshops/shecodes-basics-577aaca1-9ef5-4506-844e-920612b1a18b/projects/1416707"
+            >
+              <img
+                class="img-fluid rounded shadow"
+                src="/media/landing.png"
+                alt="Basics landing page"
+              />
+              <p class="project-text">
+                Basic <br />
+                landing page
+              </p>
+            </a>
           </div>
           <a
             href="https://www.shecodes.io/workshops/shecodes-basics-577aaca1-9ef5-4506-844e-920612b1a18b/projects/1416707"
-            class="btn mt-4 d-block project-button"
+            class="btn mt-2 mb-4 d-block project-button"
             >See project</a
           >
         </div>
         <div class="col-md-3 p-2">
           <div class="project-wrapper rounded">
-            <img
-              class="img-fluid rounded shadow"
-              src="/media/weather app.png"
-              alt="Concert landing page"
-            />
-            <p class="project-text">Concerts landing page</p>
+            <a href="https://clinquant-mandazi-1ee865.netlify.app/">
+              <img
+                class="img-fluid rounded shadow"
+                src="/media/weather app.png"
+                alt="Space weather app"
+              />
+              <p class="project-text">Space weather app</p>
+            </a>
           </div>
           <a
             href="https://clinquant-mandazi-1ee865.netlify.app/"
-            class="btn mt-4 d-block project-button"
+            class="btn mt-2 mb-4 d-block project-button"
             >See project</a
           >
         </div>
         <div class="col-md-2 p-2 p-2">
           <div class="project-wrapper rounded">
-            <img
-              class="img-fluid rounded shadow"
-              src="/media/weather-raw.png"
-              alt="Weather app v1"
-            />
-            <p class="project-text">Weather app v1</p>
+            <a href="https://vocal-licorice-559ec3.netlify.app/">
+              <img
+                class="img-fluid rounded shadow"
+                src="/media/dummy-wa.png"
+                alt="Weather app v1"
+              />
+              <p class="project-text">
+                Dummy <br />
+                weather app
+              </p>
+            </a>
           </div>
-          <a href="" class="btn mt-4 d-block project-button">See project</a>
+          <a
+            href="https://vocal-licorice-559ec3.netlify.app/"
+            class="btn mt-2 d-block project-button"
+            >See project</a
+          >
         </div>
       </div>
     </div>
@@ -142,7 +160,10 @@
                   </a>
                 </div>
                 <div class="col col-sm-6 col-md-3 text-center social-icon">
-                  <a href="" target="_blank">
+                  <a
+                    href="https://www.facebook.com/Roberta.SignorinoGelo/"
+                    target="_blank"
+                  >
                     <img src="/media/icons/facebook.png" alt="Facebook icon" />
                   </a>
                 </div>
