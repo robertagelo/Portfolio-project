@@ -107,9 +107,6 @@ footer {
     rgb(190, 228, 210) 62.3%,
     rgb(215, 248, 247) 93.8%
   );
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 30px;
 }
 
@@ -347,9 +344,6 @@ p,
 
 .timeline-content {
   padding-bottom: 40px;
-  p:last-child {
-    margin-bottom: 0;
-  }
 }
 
 .period {
@@ -435,6 +429,11 @@ p,
 .project-wrapper:hover img {
   transform: scale(1.2);
   opacity: 0.3;
+}
+
+.disclaimer {
+  font-size: 14px;
+  text-align: center;
 }
 
 @media (max-width: 576px) {

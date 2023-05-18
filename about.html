@@ -17,12 +17,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/style.css" />
+    <meta
+      name="description"
+      content="See how you can contact me for jobs, consultations or any related topics."
+    />
     <title>About me | Roberta Gelo's</title>
   </head>
   <body>
     <!--Menu visible only on desktop-->
     <nav class="container-fluid sticky-top main-menu-desktop">
-      <a href="/">
+      <a href="/" title="Homepage">
         <img
           class="logo-desktop"
           src="/media/logos/logo-desktop.png"
@@ -30,15 +34,19 @@
         />
       </a>
       <ul class="d-flex m-0 p-0 align-items-center text-center">
-        <li><a href="/"> Home</a></li>
-        <li><a href="/work-experience.html">Work experience</a></li>
-        <li><a href="/projects.html">My projects</a></li>
+        <li><a href="/" title="Homepage"> Home</a></li>
+        <li>
+          <a href="/work-experience.html" title="My work experience"
+            >Work experience</a
+          >
+        </li>
+        <li><a href="/projects.html" title="Projects">My projects</a></li>
         <li class="active">About me</li>
       </ul>
     </nav>
     <!--Menu visible only on mobile-->
     <nav class="main-menu-mobile d-sm-none container-fluid sticky-top">
-      <a href="/">
+      <a href="/" title="Homepage">
         <img
           class="logo-mobile m-2"
           src="/media/logos/logo-mobile.png"
@@ -46,8 +54,12 @@
         />
       </a>
       <ul class="d-flex align-items-center m-0 p-0 text-center">
-        <li><a href="/work-experience.html">Experience</a></li>
-        <li><a href="/projects.html">Projects</a></li>
+        <li>
+          <a href="/work-experience.html" title="My work experience"
+            >Experience</a
+          >
+        </li>
+        <li><a href="/projects.html" title="Projects">Projects</a></li>
         <li clas="active">About</li>
       </ul>
     </nav>
@@ -78,6 +90,7 @@
             <a
               href="mailto:roberta.outlook.it"
               target="_blank"
+              title="Send me an email"
               class="btn mt-5 d-block project-button"
               >Don't be shy!</a
             >
@@ -106,6 +119,7 @@
             You can send a message to my Linkedin inbox<br />
             <a
               href="https://www.linkedin.com/in/robertasignorinogelo/"
+              title="Write me on Linkedin"
               class="btn mt-5 d-block project-button"
               >Go to Linkedin</a
             >
@@ -133,12 +147,17 @@
                   <a
                     href="https://www.linkedin.com/in/robertasignorinogelo/"
                     target="_blank"
+                    title="Linkedin profile"
                   >
                     <img src="/media/icons/linkedin.png" alt="Linkedin icon"
                   /></a>
                 </div>
                 <div class="col col-sm-6 col-md-3 text-center social-icon">
-                  <a href="https://github.com/robertagelo" target="_blank">
+                  <a
+                    href="https://github.com/robertagelo"
+                    target="_blank"
+                    title="Github profile"
+                  >
                     <img src="/media/icons/github.png" alt="Github icon" />
                   </a>
                 </div>
@@ -146,6 +165,7 @@
                   <a
                     href="https://www.instagram.com/robertagelo/"
                     target="_blank"
+                    title="Instagram profile"
                   >
                     <img
                       src="/media/icons/instagram.png"
@@ -156,6 +176,7 @@
                 <div class="col col-sm-6 col-md-3 text-center social-icon">
                   <a
                     href="https://www.facebook.com/Roberta.SignorinoGelo/"
+                    title="Facebook profile"
                     target="_blank"
                   >
                     <img src="/media/icons/facebook.png" alt="Facebook icon" />
@@ -166,6 +187,15 @@
           </div>
         </div>
       </div>
+      <p class="mt-4 disclaimer">
+        Proudly handcrafted 💝 by Roberta. The entire project is open sourced
+        <a
+          href="https://github.com/robertagelo/Portfolio-project"
+          target="_blank"
+          title="Portfolio project on Github"
+          >here</a
+        >.
+      </p>
     </footer>
   </body>
 </html>
