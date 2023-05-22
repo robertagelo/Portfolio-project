@@ -469,6 +469,10 @@ p,
     display: none;
   }
 
+  .peter-griffin {
+    max-width: 300px;
+  }
+
   footer .follow-text {
     flex-wrap: wrap;
     justify-content: center;
