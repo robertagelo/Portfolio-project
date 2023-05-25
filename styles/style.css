@@ -86,7 +86,6 @@ h2 {
   backdrop-filter: blur(6px);
   justify-content: space-between;
   padding: 0;
-  margin: 10px 0;
   font-family: var(--content-font);
   width: 100%;
 }
